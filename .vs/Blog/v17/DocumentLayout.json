@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|c:\\users\\asus\\music\\blog\\blogs\\repositories\\iblogreposiroty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|solutionrelative:blogs\\repositories\\iblogreposiroty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|c:\\users\\asus\\music\\blog\\blogs\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|solutionrelative:blogs\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|c:\\users\\asus\\music\\blog\\blogs\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|solutionrelative:blogs\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Blogs\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Blogs\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T15:24:58.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "Blogs\\Entities\\Blog.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Entities\\Blog.cs",
+              "RelativeToolTip": "Blogs\\Entities\\Blog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T15:24:25.916Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,7 +62,7 @@
               "RelativeDocumentMoniker": "Blogs\\Repositories\\BlogRepository.cs",
               "ToolTip": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Repositories\\BlogRepository.cs",
               "RelativeToolTip": "Blogs\\Repositories\\BlogRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T15:14:44.576Z",
               "EditorCaption": ""

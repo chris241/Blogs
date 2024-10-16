@@ -1,6 +1,7 @@
-﻿namespace Blogs.Entities
+﻿namespace Blogs.Entities;
+
+public class Blog : BaseEntity
 {
-    public class Blog
-    {
-    }
+    public string? Title { get; set; }
+    public string? Description { get; set; }
 }
