@@ -1,7 +1,5 @@
 # Blog - Web Api ASP.NET Core 
 
-## Overview
-
 ## Features
 Feature 1: "CRUD for blog posts"
 ## Technologies Used
