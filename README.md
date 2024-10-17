@@ -35,7 +35,7 @@ Feature 1: "CRUD for blog posts"
 ## API Documentation
 This project uses Swagger for API documentation. Once the application is running, you can access the Swagger UI at:
 
-https://localhost:57855/swagger/index.html
-http://localhost:8081/#/events?range=1d
+* https://localhost:57855/swagger/index.html
+* http://localhost:8081/#/events?range=1d
 
 This provides detailed information about all available API endpoints, request/response formats, and authorization requirements.
