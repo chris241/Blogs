@@ -3,7 +3,7 @@
 ## Overview
 
 ## Features
-Feature 1: [Description of feature 1, e.g., "CRUD for blog posts"]
+Feature 1: Description of feature 1, e.g., "CRUD for blog posts"
 ## Technologies Used
 * .NET 8 SDK.
 * Postgresql.
