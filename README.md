@@ -16,7 +16,8 @@ Feature 1: "CRUD for blog posts"
 
 1. Clone the Repository
 * git clone
-  https://github.com/your-username/your-repo-name.git](https://github.com/chris241/Blogs.git
+  
+  https://github.com/chris241/Blogs.git
 
 2. Install Dependencies
  * Restore the NuGet packages:
