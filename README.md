@@ -3,12 +3,13 @@
 ## Overview
 
 ## Features
-
+Feature 1: [Description of feature 1, e.g., "CRUD for blog posts"]
 ## Technologies Used
 * .NET 8 SDK.
 * Postgresql.
 * Visual Studio 2022 or Visual Studio Code (optional but recommended for development).
 *  Docker Desktop.
+*  Serilog (logging error of application)
 
   
 ## Getting Started
@@ -33,6 +34,7 @@
 ## API Documentation
 This project uses Swagger for API documentation. Once the application is running, you can access the Swagger UI at:
 
-https://localhost:5001/swagger
+https://localhost:57855/swagger/index.html
+http://localhost:8081/#/events?range=1d
 
 This provides detailed information about all available API endpoints, request/response formats, and authorization requirements.
