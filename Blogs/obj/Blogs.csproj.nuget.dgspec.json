@@ -4,14 +4,14 @@
     "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Blogs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Music\\Blog\\Blog.ServiceDefaults\\Blog.ServiceDefaults.csproj": {
+    "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Blogs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Music\\Blog\\Blog.ServiceDefaults\\Blog.ServiceDefaults.csproj",
-        "projectName": "Blog.ServiceDefaults",
-        "projectPath": "C:\\Users\\ASUS\\Music\\Blog\\Blog.ServiceDefaults\\Blog.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Blogs.csproj",
+        "projectName": "Blogs",
+        "projectPath": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Blogs.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Music\\Blog\\Blog.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,107 +46,41 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Extensions.Http.Resilience": {
-              "target": "Package",
-              "version": "[8.9.1, )"
-            },
-            "Microsoft.Extensions.ServiceDiscovery": {
+            "Aspire.Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.2.1, )"
             },
-            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+            "AutoMapper": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[13.0.1, )"
             },
-            "OpenTelemetry.Extensions.Hosting": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[11.10.0, )"
             },
-            "OpenTelemetry.Instrumentation.AspNetCore": {
+            "MediatR": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[12.4.1, )"
             },
-            "OpenTelemetry.Instrumentation.Http": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[8.0.8, )"
             },
-            "OpenTelemetry.Instrumentation.Runtime": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[1.9.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+              "version": "[8.0.8, )"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Blogs.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Blogs.csproj",
-        "projectName": "Blogs",
-        "projectPath": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Blogs.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\ASUS\\Music\\Blog\\Blog.ServiceDefaults\\Blog.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Music\\Blog\\Blog.ServiceDefaults\\Blog.ServiceDefaults.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[1.21.0, )"
+              "version": "[8.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

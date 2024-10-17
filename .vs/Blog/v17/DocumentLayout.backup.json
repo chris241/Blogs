@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Music\\Blog\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|c:\\users\\asus\\music\\blog\\blogs\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|solutionrelative:blogs\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|c:\\users\\asus\\music\\blog\\blogs\\repositories\\iblogreposiroty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|solutionrelative:blogs\\repositories\\iblogreposiroty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Repositories\\BlogRepository.cs",
-              "RelativeDocumentMoniker": "Blogs\\Repositories\\BlogRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Repositories\\BlogRepository.cs",
-              "RelativeToolTip": "Blogs\\Repositories\\BlogRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:14:44.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IBlogReposiroty.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Repositories\\IBlogReposiroty.cs",
-              "RelativeDocumentMoniker": "Blogs\\Repositories\\IBlogReposiroty.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Repositories\\IBlogReposiroty.cs",
-              "RelativeToolTip": "Blogs\\Repositories\\IBlogReposiroty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:12:44.648Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

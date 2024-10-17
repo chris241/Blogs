@@ -1,0 +1,6 @@
+services:
+  blogs:
+    image: ${DOCKER_REGISTRY-}blogs
+    build:
+      context: .
+      dockerfile: Blogs/Dockerfile

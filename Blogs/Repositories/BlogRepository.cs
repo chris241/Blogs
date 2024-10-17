@@ -1,25 +1,31 @@
-﻿using Blogs.Entities;
+﻿using Blogs.Database;
+using Blogs.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Blogs.Repositories;
 
-public class BlogRepository : IBlogReposiroty
+public class BlogRepository(BlogContext _context) : IBlogReposiroty
 {
-    public Task<long> Create(Blog blogs, CancellationToken cancellationToken)
+    public async Task<Guid> Create(Blog blog, CancellationToken cancellationToken)
+    {
+        _context.Add(blog);
+
+        await _context.SaveChangesAsync(cancellationToken);
+
+        return blog.Id;
+    }
+
+    public Task<Guid> Delete(Guid id, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }
 
-    public Task<long> Delete(long id, CancellationToken cancellationToken)
+    public  async Task<Blog> Get(Guid id, CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        return await _context.Blogs.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
     }
 
-    public Task<Blog> Get(long id, CancellationToken cancellationToken)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<long> Udpdate(Blog blogs, CancellationToken cancellationToken)
+    public Task<Guid> Udpdate(Blog blogs, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }

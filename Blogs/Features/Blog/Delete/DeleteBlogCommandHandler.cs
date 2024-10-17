@@ -1,6 +1,18 @@
-﻿namespace Blogs.Features.Blog.Delete
+﻿using Blogs.Features.Blog.Create;
+using Blogs.Repositories;
+using MediatR;
+
+namespace Blogs.Features.Blog.Delete;
+
+public class DeleteBlogCommandHandler(IBlogReposiroty _blogReposiroty)
+    : IRequestHandler<DeleteBlogCommand, Guid>
 {
-    public class DeleteBlogCommandHandler
+    public async Task<Guid> Handle(DeleteBlogCommand command, CancellationToken cancellationToken)
     {
+        var newblog = new Entities.Blog()
+        {
+
+        };
+        return await _blogReposiroty.Delete(newblog.Id, cancellationToken); ;
     }
 }

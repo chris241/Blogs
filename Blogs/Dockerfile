@@ -13,6 +13,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Blogs/Blogs.csproj", "Blogs/"]
+COPY ["Blog.ServiceDefaults/Blog.ServiceDefaults.csproj", "Blog.ServiceDefaults/"]
 RUN dotnet restore "./Blogs/Blogs.csproj"
 COPY . .
 WORKDIR "/src/Blogs"

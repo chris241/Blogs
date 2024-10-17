@@ -1,0 +1,13 @@
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\bin\Debug\net8.0\Blog.ServiceDefaults.deps.json
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\bin\Debug\net8.0\Blog.ServiceDefaults.dll
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\bin\Debug\net8.0\Blog.ServiceDefaults.pdb
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\Blog.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\Blog.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\Blog.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\Blog.ServiceDefaults.AssemblyInfo.cs
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\Blog.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\Blog.ServiceDefaults.sourcelink.json
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\Blog.ServiceDefaults.dll
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\refint\Blog.ServiceDefaults.dll
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\Blog.ServiceDefaults.pdb
+C:\Users\ASUS\Music\Blog\Blog.ServiceDefaults\obj\Debug\net8.0\ref\Blog.ServiceDefaults.dll

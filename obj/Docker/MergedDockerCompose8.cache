@@ -1,0 +1,78 @@
+name: dockercompose8529110220257620591
+services:
+  BlogDB:
+    container_name: BlogDB
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      MSSQL_SA_PASSWORD: Qwerty@1234
+    hostname: BlogDB
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      db_network: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    user: root
+    volumes:
+      - type: volume
+        source: BlogDB_data
+        target: /var/opt/mssql/data
+        volume: {}
+  blog.seq:
+    container_name: blog-seq
+    environment:
+      ACCEPT_EULA: "Y"
+    image: datalust/seq:latest
+    networks:
+      app_network: null
+    ports:
+      - mode: ingress
+        target: 5431
+        published: "5341"
+        protocol: tcp
+      - mode: ingress
+        target: 80
+        published: "8081"
+        protocol: tcp
+  blogs:
+    build:
+      context: C:\Users\ASUS\Music\Blog
+      dockerfile: Blogs/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: blogs
+    networks:
+      app_network: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\ASUS\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\ASUS\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  app_network:
+    name: dockercompose8529110220257620591_app_network
+  db_network:
+    name: dockercompose8529110220257620591_db_network
+volumes:
+  BlogDB_data:
+    name: dockercompose8529110220257620591_BlogDB_data

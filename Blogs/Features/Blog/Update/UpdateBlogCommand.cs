@@ -1,6 +1,6 @@
-﻿namespace Blogs.Features.Blog.Update
-{
-    public class UpdateBlogCommand
-    {
-    }
-}
+﻿
+using MediatR;
+
+namespace Blogs.Features.Blog.Update;
+
+public record UpdateBlogCommand(Guid id,string Title, string Description) : IRequest<Guid>;
