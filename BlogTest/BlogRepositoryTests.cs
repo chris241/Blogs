@@ -21,7 +21,7 @@ public class BlogRepositoryTests
     public async Task Create_ShouldReturnGuid_WhenBlogIsCreated()
     {
         
-        var blog = new Blog { /* initialize properties */ };
+        var blog = new Blog { Title ="test", Description="test" };
         var blogId = Guid.NewGuid();
         _blogRepositoryMock.Setup(repo => repo.Create(blog, _cancellationToken)).ReturnsAsync(blogId);
 
@@ -35,8 +35,8 @@ public class BlogRepositoryTests
     [Fact]
     public async Task Update_ShouldReturnGuid_WhenBlogIsUpdated()
     {
-        
-        var blog = new Blog { /* initialize properties */ };
+
+        var blog = new Blog { Title = "test", Description = "test" };
         var blogId = Guid.NewGuid();
         _blogRepositoryMock.Setup(repo => repo.Udpdate(blog, _cancellationToken)).ReturnsAsync(blogId);
 
@@ -52,7 +52,7 @@ public class BlogRepositoryTests
     {
         
         var blogId = Guid.NewGuid();
-        var blog = new Blog { /* initialize properties */ };
+        var blog = new Blog { Title = "test", Description = "test" };
         _blogRepositoryMock.Setup(repo => repo.Get(blogId, _cancellationToken)).ReturnsAsync(blog);
 
         

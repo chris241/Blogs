@@ -18,21 +18,21 @@ namespace Blogs.Controllers
             _sender = sender;
         }
         [HttpGet("{id}")]
-        public IActionResult GetBlog(Guid id)
+        public async Task<IActionResult> GetBlog(Guid id)
         {
-            var response = _sender.Send(new GetByIdBlogQuery(id));
+            var response =  await _sender.Send(new GetByIdBlogQuery(id));
             return Ok(response);
         }
         [HttpDelete("{id}")]
-        public IActionResult DeleteBlog(Guid id)
+        public async  Task<IActionResult> DeleteBlog(Guid id)
         {
-            var response = _sender.Send(new DeleteBlogCommand(id));
+            var response = await _sender.Send(new DeleteBlogCommand(id));
             return Ok(response);
         }
         [HttpPost]
-        public IActionResult AddBlog([FromBody] CreateBlogRequest request)
+        public async  Task<IActionResult> AddBlog([FromBody] CreateBlogRequest request)
         {
-            var response = _sender.Send(new CreateBlogCommand(request.Title!, request.Description!));
+            var response = await _sender.Send(new CreateBlogCommand(request.Title!, request.Description!));
             return Ok(response);
         }
         [HttpPut]
