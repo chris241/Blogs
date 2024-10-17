@@ -75,4 +75,25 @@ public class BlogRepositoryTests
   
         Assert.Equal(blogId, result);
     }
+    [Fact]
+    public async Task GetAll_ShouldReturnListOfBlogs_WhenCalled()
+    {
+
+        var blogs = new List<Blog>
+        {
+            new Blog { Id = Guid.NewGuid(), Title = "Blog 1", Description = "Content 1" },
+            new Blog { Id = Guid.NewGuid(), Title = "Blog 2", Description = "Content 2" }
+        };
+
+        _blogRepositoryMock.Setup(repo => repo.GetAll(_cancellationToken))
+                           .ReturnsAsync(blogs);
+
+        var result = await _blogRepositoryMock.Object.GetAll(_cancellationToken);
+
+
+        Assert.NotNull(result); 
+        Assert.Equal(2, result.Count);
+        Assert.Equal("Blog 1", result[0].Title); 
+        Assert.Equal("Blog 2", result[1].Title); 
+    }
 }

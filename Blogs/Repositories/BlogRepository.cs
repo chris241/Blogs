@@ -43,7 +43,12 @@ public class BlogRepository(BlogContext _context) : IBlogReposiroty
 
     public  async Task<Blog> Get(Guid id, CancellationToken cancellationToken)
     {
-        return await _context.Blogs.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+        return await _context.Blogs.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id, cancellationToken)!;
+    }
+
+    public async Task<List<Blog>> GetAll(CancellationToken cancellationToken)
+    {
+        return await _context.Blogs.AsNoTracking().ToListAsync(cancellationToken);
     }
 
     public Task<Guid> Udpdate(Blog blogs, CancellationToken cancellationToken)

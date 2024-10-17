@@ -8,4 +8,5 @@ public interface IBlogReposiroty
     Task<Guid> Udpdate(Blog blogs, CancellationToken cancellationToken);
     Task<Blog> Get(Guid id, CancellationToken cancellationToken);
     Task<Guid> Delete(Guid id, CancellationToken cancellationToken);
+    Task<List<Blog>> GetAll(CancellationToken cancellationToken);
 }

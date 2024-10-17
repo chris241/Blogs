@@ -2,6 +2,7 @@
 using Blogs.Features.Blog.Create;
 using Blogs.Features.Blog.Delete;
 using Blogs.Features.Blog.GetById;
+using Blogs.Features.Blog.GetList;
 using Blogs.Features.Blog.Update;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -16,6 +17,12 @@ namespace Blogs.Controllers
         public BlogController(ISender sender)
         {
             _sender = sender;
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var response = await _sender.Send(new GetListBlogQuery());
+            return Ok(response);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBlog(Guid id)
