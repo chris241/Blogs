@@ -5,19 +5,20 @@
 ## Features
 
 ## Technologies Used
-.NET 8 SDK.
-Postgresql.
-Visual Studio 2022 or Visual Studio Code (optional but recommended for development).
+* .NET 8 SDK.
+* Postgresql.
+* Visual Studio 2022 or Visual Studio Code (optional but recommended for development).
 *  Docker Desktop.
 
   
 ## Getting Started
 
 1. Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git](https://github.com/chris241/Blogs.git
+* git clone
+  https://github.com/your-username/your-repo-name.git](https://github.com/chris241/Blogs.git
 
 2. Install Dependencies
-Restore the NuGet packages:
+ * Restore the NuGet packages:
   dotnet restore
   
 ## How To Run
