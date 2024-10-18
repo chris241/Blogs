@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Music\\Blog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|c:\\users\\asus\\music\\blog\\blogs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D0BC62-2DAE-4F7E-9200-DF3A6EECCDEB}|Blogs\\Blogs.csproj|solutionrelative:blogs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Program.cs",
+              "RelativeDocumentMoniker": "Blogs\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\Blog\\Blogs\\Program.cs",
+              "RelativeToolTip": "Blogs\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:01:27.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
