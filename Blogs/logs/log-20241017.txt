@@ -1,0 +1,13 @@
+2024-10-17 09:11:12.974 +00:00 [INF] Starting server.
+2024-10-17 09:13:37.260 +00:00 [INF] Starting server.
+2024-10-17 09:14:32.420 +00:00 [INF] Starting server.
+2024-10-17 09:15:19.569 +00:00 [INF] Starting server.
+2024-10-17 09:16:28.556 +00:00 [INF] Starting server.
+2024-10-17 09:18:55.999 +00:00 [INF] Starting server.
+2024-10-17 09:23:08.535 +00:00 [INF] Starting server.
+2024-10-17 09:25:10.072 +00:00 [INF] Starting server.
+2024-10-17 09:25:16.771 +00:00 [INF] data string  string inserted
+2024-10-17 12:48:53.194 +00:00 [INF] Starting server.
+2024-10-17 12:51:17.689 +00:00 [INF] Starting server.
+2024-10-17 12:54:13.763 +00:00 [INF] Starting server.
+2024-10-17 12:55:56.292 +00:00 [INF] Starting server.

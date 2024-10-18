@@ -9,10 +9,6 @@ public class DeleteBlogCommandHandler(IBlogReposiroty _blogReposiroty)
 {
     public async Task<Guid> Handle(DeleteBlogCommand command, CancellationToken cancellationToken)
     {
-        var newblog = new Entities.Blog()
-        {
-
-        };
-        return await _blogReposiroty.Delete(newblog.Id, cancellationToken); ;
+        return await _blogReposiroty.Delete(command.id, cancellationToken); ;
     }
 }

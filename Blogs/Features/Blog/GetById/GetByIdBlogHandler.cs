@@ -8,7 +8,7 @@ public class GetByIdBlogHandler(IBlogReposiroty _blogReposiroty, IMapper _mapper
 {
     public async Task<GetByIdBlogResponse> Handle(GetByIdBlogQuery request, CancellationToken cancellationToken)
     {
-        var blog = await _blogReposiroty.Get(request.id, cancellationToken)!;
+        var blog =  await _blogReposiroty.Get(request.id, cancellationToken)!;
         return _mapper.Map<GetByIdBlogResponse>(blog);
     }
 }
